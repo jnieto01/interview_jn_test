@@ -1,0 +1,175 @@
+
+
+.red {
+	background-color: red;
+}
+
+.l_yellow {
+	color: yellow;
+}
+
+.l_red {
+	color: rgb(133, 30, 30);
+}
+
+.green {
+	background-color: green;
+
+}
+
+
+
+.blue {
+	background-color: blue;
+}
+
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+}
+
+header {
+	padding: 0px;
+	padding-top: 10px;
+	
+	margin: 0px;
+	color: white;
+	min-height: 40px;
+	background-color:  #3367D6; 
+	-webkit-box-shadow: 0px 7px 22px -6px rgba(0,0,0,1);
+  	-moz-box-shadow: 0px 7px 22px -6px rgba(0,0,0,1);
+  	box-shadow: 0px 7px 22px -6px rgba(0,0,0,1);
+}
+
+#kind {
+	text-align: left;
+}
+
+#name {
+	text-align: right;
+}
+
+.page {
+	margin-top: 15px;
+	margin-bottom: 15px;	
+}
+
+
+
+.img-size {
+	max-height: 320px;
+	max-width:  320px;
+}
+
+
+#sortable .row {
+	padding-bottom: 10px;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+	}
+
+  .btn-file input[type=file] {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  min-width: 100%;
+	  min-height: 100%;
+	  font-size: 100px;
+	  text-align: right;
+	  filter: alpha(opacity=0);
+	  opacity: 0;
+	  outline: none;
+	  background: white;
+	  cursor: inherit;
+	  display: block;
+  }
+
+
+.top-items {
+	background-color: #515151;
+	color: white;
+}
+
+
+
+/*
+#image_preview{
+	position: absolute;
+	font-size: 30px;
+	top: 100px;
+	left: 100px;
+	width: 250px;
+	height: 230px;
+	text-align: center;
+	line-height: 180px;
+	font-weight: bold;
+	color: #C0C0C0;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+
+#selectImage{
+	padding: 19px 21px 14px 15px;
+	position: absolute;
+	bottom: 0px;
+	width: 414px;
+	background-color: #FEFFED;
+	border-radius: 10px;
+}
+*/
+
+	
+	
+	
+
+
+footer {
+	color: #bfbfbf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:#515151 ; 	
+    font-size: 14px;
+	margin: 0px;
+}
+
+footer a {
+	color: white;
+}
+footer a:hover {
+	color: #6db4f7; /* #0055ff; */
+}
+
+
+
+/* mobile */
+@media (max-width: 767px) {
+	#kind {
+		text-align: center;
+	}
+
+	#name {
+		text-align: center;
+	}
+
+} 
+
+
+
+
+
+
+
