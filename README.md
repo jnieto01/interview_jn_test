@@ -1,2 +1,5 @@
 # interview_jn_test
-list of items
+
+For installation please read the installation file and follow the instructions.
+
+List of items
